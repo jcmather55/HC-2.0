@@ -33,6 +33,9 @@ struct TopView: View {
             .padding(.top)
             TabView {
                 ForEach(colors, id: \.self) { color in
+                    
+  // The Summary Family Card
+                    
                     ZStack {
                         color
                         Text("\(color.description)")
@@ -46,8 +49,9 @@ struct TopView: View {
             .cornerRadius(30)
             .padding(10)
             
-            Text("HC 2.0 - 2022_06_02")
+            Text("HC 2.0 - 2022_06_02b")
                 .italic()
+                .font(.caption2)
         }
     }
 }
@@ -55,6 +59,7 @@ struct TopView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         TopView()
+            .previewInterfaceOrientation(.portrait)
     }
     
 }
