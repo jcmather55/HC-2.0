@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7AEEB617275A6F820056003C /* SwipeableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEEB617275A6F820056003C /* HC 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HC 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEEB61A275A6F820056003C /* SwipeableViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableViewsApp.swift; sourceTree = "<group>"; };
 		7AEEB61C275A6F820056003C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7AEEB61E275A6F830056003C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		7AEEB618275A6F820056003C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AEEB617275A6F820056003C /* SwipeableViews.app */,
+				7AEEB617275A6F820056003C /* HC 2.0.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7AEEB616275A6F820056003C /* SwipeableViews */ = {
+		7AEEB616275A6F820056003C /* HC 2.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AEEB625275A6F830056003C /* Build configuration list for PBXNativeTarget "SwipeableViews" */;
+			buildConfigurationList = 7AEEB625275A6F830056003C /* Build configuration list for PBXNativeTarget "HC 2.0" */;
 			buildPhases = (
 				7AEEB613275A6F820056003C /* Sources */,
 				7AEEB614275A6F820056003C /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = SwipeableViews;
+			name = "HC 2.0";
 			productName = SwipeableViews;
-			productReference = 7AEEB617275A6F820056003C /* SwipeableViews.app */;
+			productReference = 7AEEB617275A6F820056003C /* HC 2.0.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7AEEB612275A6F820056003C /* Build configuration list for PBXProject "SwipeableViews" */;
+			buildConfigurationList = 7AEEB612275A6F820056003C /* Build configuration list for PBXProject "HC 2.0" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AEEB616275A6F820056003C /* SwipeableViews */,
+				7AEEB616275A6F820056003C /* HC 2.0 */,
 			);
 		};
 /* End PBXProject section */
@@ -281,8 +281,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.SwipeableViews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.HCv2.0;
+				PRODUCT_NAME = "HC 2.0";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,8 +309,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.SwipeableViews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.HCv2.0;
+				PRODUCT_NAME = "HC 2.0";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AEEB612275A6F820056003C /* Build configuration list for PBXProject "SwipeableViews" */ = {
+		7AEEB612275A6F820056003C /* Build configuration list for PBXProject "HC 2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AEEB623275A6F830056003C /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AEEB625275A6F830056003C /* Build configuration list for PBXNativeTarget "SwipeableViews" */ = {
+		7AEEB625275A6F830056003C /* Build configuration list for PBXNativeTarget "HC 2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AEEB626275A6F830056003C /* Debug */,
