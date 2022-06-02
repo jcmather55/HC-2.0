@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AEEB61B275A6F820056003C /* SwipeableViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEB61A275A6F820056003C /* SwipeableViewsApp.swift */; };
-		7AEEB61D275A6F820056003C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEB61C275A6F820056003C /* ContentView.swift */; };
+		7AEEB61B275A6F820056003C /* HC2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEB61A275A6F820056003C /* HC2App.swift */; };
+		7AEEB61D275A6F820056003C /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEB61C275A6F820056003C /* TopView.swift */; };
 		7AEEB61F275A6F830056003C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEB61E275A6F830056003C /* Assets.xcassets */; };
 		7AEEB622275A6F830056003C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEB621275A6F830056003C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7AEEB617275A6F820056003C /* HC 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HC 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AEEB61A275A6F820056003C /* SwipeableViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableViewsApp.swift; sourceTree = "<group>"; };
-		7AEEB61C275A6F820056003C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AEEB61A275A6F820056003C /* HC2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HC2App.swift; sourceTree = "<group>"; };
+		7AEEB61C275A6F820056003C /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		7AEEB61E275A6F830056003C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AEEB621275A6F830056003C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,7 +35,7 @@
 		7AEEB60E275A6F820056003C = {
 			isa = PBXGroup;
 			children = (
-				7AEEB619275A6F820056003C /* SwipeableViews */,
+				7AEEB619275A6F820056003C /* Views */,
 				7AEEB618275A6F820056003C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +48,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7AEEB619275A6F820056003C /* SwipeableViews */ = {
+		7AEEB619275A6F820056003C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7AEEB61A275A6F820056003C /* SwipeableViewsApp.swift */,
-				7AEEB61C275A6F820056003C /* ContentView.swift */,
+				7AEEB61A275A6F820056003C /* HC2App.swift */,
+				7AEEB61C275A6F820056003C /* TopView.swift */,
 				7AEEB61E275A6F830056003C /* Assets.xcassets */,
 				7AEEB620275A6F830056003C /* Preview Content */,
 			);
-			path = SwipeableViews;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		7AEEB620275A6F830056003C /* Preview Content */ = {
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AEEB61D275A6F820056003C /* ContentView.swift in Sources */,
-				7AEEB61B275A6F820056003C /* SwipeableViewsApp.swift in Sources */,
+				7AEEB61D275A6F820056003C /* TopView.swift in Sources */,
+				7AEEB61B275A6F820056003C /* HC2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +269,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwipeableViews/Preview Content\"";
+				DEVELOPMENT_TEAM = J9PF4W2Z3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +298,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwipeableViews/Preview Content\"";
+				DEVELOPMENT_TEAM = J9PF4W2Z3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
