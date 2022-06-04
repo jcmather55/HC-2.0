@@ -53,7 +53,7 @@ struct TopView: View {
 //                .italic()
 //                .font(.caption2)
             
-            Text ("Put action icons here...")
+            Text ("Put more action icons here...")
                 .padding()
         }
     }
