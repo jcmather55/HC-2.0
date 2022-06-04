@@ -49,9 +49,12 @@ struct TopView: View {
             .cornerRadius(30)
             .padding(10)
             
-            Text("HC 2.0 - 2022_06_02b")
-                .italic()
-                .font(.caption2)
+//            Text("HC 2.0 - 2022_06_02b")
+//                .italic()
+//                .font(.caption2)
+            
+            Text ("Put action icons here...")
+                .padding()
         }
     }
 }
