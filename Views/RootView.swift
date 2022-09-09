@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TopView: View {
+struct RootView: View {
     private let colors: [Color] = [.red, .blue, .green, .orange, .black]
     
     var body: some View {
@@ -31,6 +31,25 @@ struct TopView: View {
                 }
             }
             .padding(.top)
+            
+            let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "-"
+            
+            let appName = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String ?? "--"
+        
+            HStack (){
+                
+                Text("App:  \(appName)")
+                    .font(.caption2)
+                    .fontWeight(.light)
+                    .foregroundColor(Color.red)
+                    .italic()
+                
+                Text("Version:    \(appVersion)")
+                    .font(.caption2)
+                    .fontWeight(.light)
+                    .foregroundColor(Color.red)
+                    .italic()
+            }
             TabView {
                 ForEach(colors, id: \.self) { color in
                     
@@ -49,9 +68,8 @@ struct TopView: View {
             .cornerRadius(30)
             .padding(10)
             
-//            Text("HC 2.0 - 2022_06_02b")
-//                .italic()
-//                .font(.caption2)
+
+
             
             Text ("Put more action icons here...")
                 .padding()
@@ -61,7 +79,7 @@ struct TopView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        TopView()
+        RootView()
             .previewInterfaceOrientation(.portrait)
     }
     

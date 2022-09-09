@@ -11,7 +11,7 @@ import SwiftUI
 struct HC2App: App {
     var body: some Scene {
         WindowGroup {
-            TopView()
+            RootView()
         }
     }
 }
