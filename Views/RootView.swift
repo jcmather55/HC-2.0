@@ -60,12 +60,15 @@ struct RootView: View {
                         Text("\(color.description)")
                             .font(.title)
                             .foregroundColor(.white)
+                        
+  
                     }
                 }
             }
             .tabViewStyle(.page)
             .indexViewStyle(.page(backgroundDisplayMode: .interactive))
             .cornerRadius(30)
+ //           .transition(.)
             .padding(10)
             
 
