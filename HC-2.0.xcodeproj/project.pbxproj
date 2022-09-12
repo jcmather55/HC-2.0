@@ -281,7 +281,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 22.09.09a;
+				MARKETING_VERSION = 22.09.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.HCv2.0;
 				PRODUCT_NAME = "HC 2.0";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -310,7 +310,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 22.09.09a;
+				MARKETING_VERSION = 22.09.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.HCv2.0;
 				PRODUCT_NAME = "HC 2.0";
 				SWIFT_EMIT_LOC_STRINGS = YES;
