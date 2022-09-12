@@ -59,10 +59,10 @@ struct RootView: View {
                     
                     ZStack {
                         color
- //                       Text("\(color.description)")
- //                           .font(.title)
- //                           .foregroundColor(.white)
- //                           .padding()
+                         Text("\(color.description)")
+                             .font(.title)
+                             .foregroundColor(.white)
+                             .padding()
                         // Card placeholder Text (in this case, App & Version, etc)
                                 
                                 ScrollView {

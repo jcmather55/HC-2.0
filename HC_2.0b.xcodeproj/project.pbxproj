@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7AEEB616275A6F820056003C /* HC-2.0 */ = {
+		7AEEB616275A6F820056003C /* HC_2.0b */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AEEB625275A6F830056003C /* Build configuration list for PBXNativeTarget "HC-2.0" */;
+			buildConfigurationList = 7AEEB625275A6F830056003C /* Build configuration list for PBXNativeTarget "HC_2.0b" */;
 			buildPhases = (
 				7AEEB613275A6F820056003C /* Sources */,
 				7AEEB614275A6F820056003C /* Frameworks */,
@@ -82,7 +82,7 @@
 			);
 			dependencies = (
 			);
-			name = "HC-2.0";
+			name = HC_2.0b;
 			productName = SwipeableViews;
 			productReference = 7AEEB617275A6F820056003C /* HC 2.0.app */;
 			productType = "com.apple.product-type.application";
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7AEEB612275A6F820056003C /* Build configuration list for PBXProject "HC-2.0" */;
+			buildConfigurationList = 7AEEB612275A6F820056003C /* Build configuration list for PBXProject "HC_2.0b" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AEEB616275A6F820056003C /* HC-2.0 */,
+				7AEEB616275A6F820056003C /* HC_2.0b */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AEEB612275A6F820056003C /* Build configuration list for PBXProject "HC-2.0" */ = {
+		7AEEB612275A6F820056003C /* Build configuration list for PBXProject "HC_2.0b" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AEEB623275A6F830056003C /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AEEB625275A6F830056003C /* Build configuration list for PBXNativeTarget "HC-2.0" */ = {
+		7AEEB625275A6F830056003C /* Build configuration list for PBXNativeTarget "HC_2.0b" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AEEB626275A6F830056003C /* Debug */,
