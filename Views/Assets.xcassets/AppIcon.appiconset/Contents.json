@@ -16,6 +16,7 @@
       "size" : "29x29"
     },
     {
+      "filename" : "Icon_29x29@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
@@ -26,6 +27,7 @@
       "size" : "40x40"
     },
     {
+      "filename" : "Icon_40x40@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
@@ -36,6 +38,7 @@
       "size" : "60x60"
     },
     {
+      "filename" : "Icon_60x60.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"

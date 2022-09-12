@@ -50,6 +50,8 @@ struct RootView: View {
                     .foregroundColor(Color.red)
                     .italic()
             }
+            
+            
             TabView {
                 ForEach(colors, id: \.self) { color in
                     
@@ -57,10 +59,86 @@ struct RootView: View {
                     
                     ZStack {
                         color
-                        Text("\(color.description)")
-                            .font(.title)
-                            .foregroundColor(.white)
-                        
+ //                       Text("\(color.description)")
+ //                           .font(.title)
+ //                           .foregroundColor(.white)
+ //                           .padding()
+                        // Card placeholder Text (in this case, App & Version, etc)
+                                
+                                ScrollView {
+                                    GroupBox {
+                                        VStack(alignment: .leading) {
+                                            Text("Messages")
+                                                .font(.headline)
+                                                .foregroundColor(Color.black)
+                                            Text("                                                     ")
+                                            GroupBox {
+                                                Text("Alerts                      ")
+                                            }
+                                            
+                                        }
+                                        .foregroundColor(Color.red)
+                                        
+                                    }
+                                    GroupBox {
+                                        VStack(alignment: .leading) {
+                                            Text("Vital Signs")
+                                                .font(.headline)
+                                            Text("                                                     ")
+                                            GroupBox {
+                                                Text("                            ")
+                                            }
+                                            
+                                        }
+                                        
+                                        .foregroundColor(Color.black)
+                                        
+                                    }
+                                    GroupBox {
+                                        VStack(alignment: .leading) {
+                                            Text("Medications")
+                                                .font(.headline)
+                                            Text("                                                     ")
+                                            GroupBox {
+                                                Text("                            ")
+                                            }
+                                            
+                                        }
+                                        
+                                        .foregroundColor(Color.black)
+                                        
+                                    }
+                                    GroupBox {
+                                        VStack(alignment: .leading) {
+                                            Text("Test Results")
+                                                .font(.headline)
+                                            Text("                                                     ")
+                                            GroupBox {
+                                                Text("                            ")
+                                            }
+                                            
+                                        }
+                                        
+                                        .foregroundColor(Color.black)
+                                        
+                                    }
+                                    
+                                    GroupBox {
+                                        VStack(alignment: .leading) {
+                                            Text("Discussion Topics")
+                                                .font(.headline)
+                                            Text("                                                     ")
+                                            GroupBox {
+                                                Text("                            ")
+                                            }
+                                            
+                                        }
+                                        
+                                        .foregroundColor(Color.black)
+                                        
+                                    }
+                                    
+                                }
   
                     }
                 }
