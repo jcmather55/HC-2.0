@@ -17,13 +17,22 @@ struct RootView: View {
                     .font(.system(size: 30, weight:
                             .bold, design: .rounded))
                     .padding()
-                    .frame(width: 320, height: 30, alignment: .leading)
+                    .frame(width: 310, height: 30, alignment: .leading)
                     .minimumScaleFactor(1.0)
     
                 Spacer()
                 
+
                 Button(action: {}) {
-                    Image(systemName: "line.3.horizontal")
+                    Image(systemName: "square.and.arrow.up")
+                        .padding()
+                        .imageScale(.large)
+                        .frame(width: 10, height: 10, alignment: .center)            .minimumScaleFactor(1.0)
+                }
+                Spacer()
+                
+                Button(action: {}) {
+                    Image(systemName: "ellipsis.circle")
                         .padding()
                         .imageScale(.large)
                         .frame(width: 60, height: 60, alignment: .center)            .minimumScaleFactor(1.0)

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AEEB61B275A6F820056003C /* HC2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEB61A275A6F820056003C /* HC2App.swift */; };
+		7AEEB61B275A6F820056003C /* HC7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEB61A275A6F820056003C /* HC7App.swift */; };
 		7AEEB61D275A6F820056003C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEB61C275A6F820056003C /* RootView.swift */; };
 		7AEEB61F275A6F830056003C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEB61E275A6F830056003C /* Assets.xcassets */; };
 		7AEEB622275A6F830056003C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEB621275A6F830056003C /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		7AEEB617275A6F820056003C /* HC 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HC 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AEEB61A275A6F820056003C /* HC2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HC2App.swift; sourceTree = "<group>"; };
+		7AEEB61A275A6F820056003C /* HC7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HC7App.swift; sourceTree = "<group>"; };
 		7AEEB61C275A6F820056003C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7AEEB61E275A6F830056003C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AEEB621275A6F830056003C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		7AEEB619275A6F820056003C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7AEEB61A275A6F820056003C /* HC2App.swift */,
+				7AEEB61A275A6F820056003C /* HC7App.swift */,
 				7AEEB61C275A6F820056003C /* RootView.swift */,
 				7AEEB61E275A6F830056003C /* Assets.xcassets */,
 				7AEEB620275A6F830056003C /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AEEB61D275A6F820056003C /* RootView.swift in Sources */,
-				7AEEB61B275A6F820056003C /* HC2App.swift in Sources */,
+				7AEEB61B275A6F820056003C /* HC7App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +196,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 22_10_25;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.HCv2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.HCv70;
 				PRODUCT_NAME = "HC 2.0";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 22_10_25;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.HCv2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.HCv70;
 				PRODUCT_NAME = "HC 2.0";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
