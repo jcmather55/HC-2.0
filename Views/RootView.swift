@@ -26,8 +26,7 @@ struct RootView: View {
                     Image(systemName: "line.3.horizontal")
                         .padding()
                         .imageScale(.large)
-
-                        .frame(width: 60, height: 60, alignment: .center)                   .minimumScaleFactor(1.0)
+                        .frame(width: 60, height: 60, alignment: .center)            .minimumScaleFactor(1.0)
                 }
             }
             .padding(.top)
@@ -65,8 +64,11 @@ struct RootView: View {
                              .padding()
                         // Card placeholder Text (in this case, App & Version, etc)
                                 
-                                ScrollView {
-                                    GroupBox {
+                            
+                            ScrollView {
+                                Spacer(minLength: 20)
+                                GroupBox {
+                                        
                                         VStack(alignment: .leading) {
                                             Text("Messages")
                                                 .font(.headline)
@@ -137,7 +139,7 @@ struct RootView: View {
                                         .foregroundColor(Color.black)
                                         
                                     }
-                                    
+
                                 }
   
                     }
