@@ -1,14 +1,14 @@
 //
-//  HC7App.swift
-//  HC7App
+//  HC07.swift
+//  HC7
 //
-//  Created by Federico on 03/12/2021.
+//  Created by John C, Mather 10/01/2022.
 //
 
 import SwiftUI
 
 @main
-struct HC7App: App {
+struct HC07: App {
     var body: some Scene {
         WindowGroup {
             RootView()

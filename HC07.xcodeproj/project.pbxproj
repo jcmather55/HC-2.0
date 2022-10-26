@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AEEB61B275A6F820056003C /* HC7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEB61A275A6F820056003C /* HC7App.swift */; };
+		7AEEB61B275A6F820056003C /* HC07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEB61A275A6F820056003C /* HC07.swift */; };
 		7AEEB61D275A6F820056003C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEB61C275A6F820056003C /* RootView.swift */; };
 		7AEEB61F275A6F830056003C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEB61E275A6F830056003C /* Assets.xcassets */; };
 		7AEEB622275A6F830056003C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEB621275A6F830056003C /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		7AEEB617275A6F820056003C /* HC 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HC 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AEEB61A275A6F820056003C /* HC7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HC7App.swift; sourceTree = "<group>"; };
+		7AEEB61A275A6F820056003C /* HC07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HC07.swift; sourceTree = "<group>"; };
 		7AEEB61C275A6F820056003C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7AEEB61E275A6F830056003C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AEEB621275A6F830056003C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		7AEEB619275A6F820056003C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7AEEB61A275A6F820056003C /* HC7App.swift */,
+				7AEEB61A275A6F820056003C /* HC07.swift */,
 				7AEEB61C275A6F820056003C /* RootView.swift */,
 				7AEEB61E275A6F830056003C /* Assets.xcassets */,
 				7AEEB620275A6F830056003C /* Preview Content */,
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7AEEB616275A6F820056003C /* HC_7.0 */ = {
+		7AEEB616275A6F820056003C /* HC07 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AEEB625275A6F830056003C /* Build configuration list for PBXNativeTarget "HC_7.0" */;
+			buildConfigurationList = 7AEEB625275A6F830056003C /* Build configuration list for PBXNativeTarget "HC07" */;
 			buildPhases = (
 				7AEEB613275A6F820056003C /* Sources */,
 				7AEEB614275A6F820056003C /* Frameworks */,
@@ -82,7 +82,7 @@
 			);
 			dependencies = (
 			);
-			name = HC_7.0;
+			name = HC07;
 			productName = SwipeableViews;
 			productReference = 7AEEB617275A6F820056003C /* HC 2.0.app */;
 			productType = "com.apple.product-type.application";
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7AEEB612275A6F820056003C /* Build configuration list for PBXProject "HC_7.0" */;
+			buildConfigurationList = 7AEEB612275A6F820056003C /* Build configuration list for PBXProject "HC07" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AEEB616275A6F820056003C /* HC_7.0 */,
+				7AEEB616275A6F820056003C /* HC07 */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AEEB61D275A6F820056003C /* RootView.swift in Sources */,
-				7AEEB61B275A6F820056003C /* HC7App.swift in Sources */,
+				7AEEB61B275A6F820056003C /* HC07.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +272,7 @@
 				DEVELOPMENT_TEAM = J9PF4W2Z3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = HC_7.0;
+				INFOPLIST_KEY_CFBundleDisplayName = HC07;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,7 +284,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 22_10_25;
+				MARKETING_VERSION = 22_10_26;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.HCv70;
 				PRODUCT_NAME = "HC 2.0";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -304,7 +304,7 @@
 				DEVELOPMENT_TEAM = J9PF4W2Z3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = HC_7.0;
+				INFOPLIST_KEY_CFBundleDisplayName = HC07;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,7 +316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 22_10_25;
+				MARKETING_VERSION = 22_10_26;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.HCv70;
 				PRODUCT_NAME = "HC 2.0";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -328,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AEEB612275A6F820056003C /* Build configuration list for PBXProject "HC_7.0" */ = {
+		7AEEB612275A6F820056003C /* Build configuration list for PBXProject "HC07" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AEEB623275A6F830056003C /* Debug */,
@@ -337,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AEEB625275A6F830056003C /* Build configuration list for PBXNativeTarget "HC_7.0" */ = {
+		7AEEB625275A6F830056003C /* Build configuration list for PBXNativeTarget "HC07" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AEEB626275A6F830056003C /* Debug */,

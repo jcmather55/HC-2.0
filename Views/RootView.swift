@@ -1,6 +1,6 @@
 //
-//  TopView.swift
-//  SwipeableViews
+//  RootView.swift
+//  HC7
 //
 //  Created by Federico on 03/12/2021.
 //
@@ -27,7 +27,7 @@ struct RootView: View {
                     Image(systemName: "square.and.arrow.up")
                         .padding()
                         .imageScale(.large)
-                        .frame(width: 10, height: 10, alignment: .center)            .minimumScaleFactor(1.0)
+                        .frame(width: 40, height: 10, alignment: .center)            .minimumScaleFactor(1.0)
                 }
                 Spacer()
                 
@@ -35,7 +35,7 @@ struct RootView: View {
                     Image(systemName: "ellipsis.circle")
                         .padding()
                         .imageScale(.large)
-                        .frame(width: 60, height: 60, alignment: .center)            .minimumScaleFactor(1.0)
+                        .frame(width: 40, height: 10, alignment: .center)            .minimumScaleFactor(1.0)
                 }
             }
             .padding(.top)

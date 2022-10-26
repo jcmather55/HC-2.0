@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7AEEB616275A6F820056003C"
                BuildableName = "HC 2.0.app"
-               BlueprintName = "HC_7.0"
-               ReferencedContainer = "container:HC_7.0.xcodeproj">
+               BlueprintName = "HC07"
+               ReferencedContainer = "container:HC07.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,8 +46,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7AEEB616275A6F820056003C"
             BuildableName = "HC 2.0.app"
-            BlueprintName = "HC_7.0"
-            ReferencedContainer = "container:HC_7.0.xcodeproj">
+            BlueprintName = "HC07"
+            ReferencedContainer = "container:HC07.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7AEEB616275A6F820056003C"
             BuildableName = "HC 2.0.app"
-            BlueprintName = "HC_7.0"
-            ReferencedContainer = "container:HC_7.0.xcodeproj">
+            BlueprintName = "HC07"
+            ReferencedContainer = "container:HC07.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
