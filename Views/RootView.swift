@@ -42,11 +42,11 @@ struct RootView: View {
             
             let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "-"
             
-            let appName = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String ?? "--"
+            let productName = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String ?? "--"
         
             HStack (){
                 
-                Text("App:  \(appName)")
+                Text("Product Name:  \(productName)")
                     .font(.caption2)
                     .fontWeight(.light)
                     .foregroundColor(Color.red)
