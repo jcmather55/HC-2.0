@@ -2,7 +2,7 @@
 //  RootView.swift
 //  HC7
 //
-//  Created by Federico on 03/12/2021.
+//  Created by John C Mather on 10/01/2022.
 //
 
 import SwiftUI
@@ -46,13 +46,13 @@ struct RootView: View {
         
             HStack (){
                 
-                Text("Product Name:  \(productName)")
+                Text("Repository: \(productName)")
                     .font(.caption2)
                     .fontWeight(.light)
                     .foregroundColor(Color.red)
                     .italic()
                 
-                Text("Version:    \(appVersion)")
+                Text("   Branch:  \(appVersion)")
                     .font(.caption2)
                     .fontWeight(.light)
                     .foregroundColor(Color.red)

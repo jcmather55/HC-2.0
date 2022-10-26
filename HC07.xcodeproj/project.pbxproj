@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7AEEB617275A6F820056003C /* HC07.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HC07.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEEB617275A6F820056003C /* HC-2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HC-2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEEB61A275A6F820056003C /* HC07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HC07.swift; sourceTree = "<group>"; };
 		7AEEB61C275A6F820056003C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7AEEB61E275A6F830056003C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		7AEEB618275A6F820056003C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AEEB617275A6F820056003C /* HC07.app */,
+				7AEEB617275A6F820056003C /* HC-2.0.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = HC07;
 			productName = SwipeableViews;
-			productReference = 7AEEB617275A6F820056003C /* HC07.app */;
+			productReference = 7AEEB617275A6F820056003C /* HC-2.0.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -286,7 +286,7 @@
 				);
 				MARKETING_VERSION = 22_10_26;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.HC07;
-				PRODUCT_NAME = HC07;
+				PRODUCT_NAME = "HC-2.0";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,7 +318,7 @@
 				);
 				MARKETING_VERSION = 22_10_26;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.HC07;
-				PRODUCT_NAME = HC07;
+				PRODUCT_NAME = "HC-2.0";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
